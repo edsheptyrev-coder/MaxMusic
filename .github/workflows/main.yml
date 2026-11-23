@@ -5,13 +5,13 @@ on:
       enable_rymd:
        description: "Integrate Return-YouTube-Music-Dislikes (MaxMusic)"
        type: boolean
-       required: true
+       required: false
        default: false
 
       enable_ytmabc:
        description: "Integrate YTMABConfig (MaxMusic)"
        type: boolean
-       required: true
+       required: false
        default: false
 
       enable_youmusicpip:
@@ -23,7 +23,7 @@ on:
       enable_volumeboostyt:
        description: "Integrate VolumeBoostYT (MaxMusic)"
        type: boolean
-       required: true
+       required: false
        default: false
 
       enable_lastfm:
